@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "ReachInbox email scheduler backend",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.0.0",
+    "bullmq": "^5.0.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^6.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^5.0.0",
+    "google-auth-library": "^10.0.0",
+    "ioredis": "^5.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^2.0.0",
+    "nodemailer": "^7.0.13",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^22.0.0",
+    "@types/nodemailer": "^7.0.12",
+    "prisma": "^6.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
